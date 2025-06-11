@@ -22,7 +22,7 @@ cd IOT
 We recommend using [conda](https://docs.conda.io/). For example:
 
 ```bash
-conda create -n iot-env python=3.8 -y
+conda create -n iot-env python=3.9 -y
 conda activate iot-env
 ```
 
@@ -37,5 +37,5 @@ pip install -r requirements.txt
 Ensure that the `example_data/` folder is present, then launch the demo:
 
 ```bash
-jupyter notebook demo.ipynb
+jupyter notebook demo.ipynb --notebook-dir="."
 ```
