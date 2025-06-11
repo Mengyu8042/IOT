@@ -53,8 +53,8 @@ def IOTreg(X, Y,
         log = {'err_plan': [], 'err_trans': [], 'plan': [], 'trans': []}
     
     for i in range(outer_iter):
-        plan_prev = plan
-        param_prev = param
+        plan_prev = plan.copy()
+        param_prev = param.copy()
         
         # Update the transport plan
         M = sqeuclidean_dist(V, Y)
