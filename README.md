@@ -3,9 +3,9 @@ This repository includes the implementation of our work **"Iterative Optimal Tra
 
 ## Repository Structure
 
-* `example_data/`: Contains a CT–SPECT image pair with annotated landmarks.
+* `example_data/`: Contains an example image pair with annotated landmarks.
 * `demo.ipynb`: A Jupyter notebook for evaluating and visualizing the registration performance of the proposed IOT method.
-* `IOT.py`: Core implementation of the Iterative Optimal Transport (IOT) algorithm.
+* `IOT.py`: Core implementation of the Iterative Optimal Transport (IOT) algorithm, supporting both 2D and 3D images.
 * `utilis.py`: Utility functions for image processing and visualization.
 
 
